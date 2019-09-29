@@ -291,3 +291,7 @@ swagger-codegen-cli*.jar
 timeslot-swagger.json
 maven-metadata.xml
 *.swp
+
+cake/*
+tools/*
+output/*

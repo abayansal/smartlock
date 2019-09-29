@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  smartlock.api:
+    image: ${DOCKER_REGISTRY-}smartlockapi
+    build:
+      context: .
+      dockerfile: SmartLock.Api/Dockerfile
+  mongo:
+    image: mongo
+    ports:
+    - "27017:27017"

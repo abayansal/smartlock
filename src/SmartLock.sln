@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLock.Api", "SmartLock.Api\SmartLock.Api.csproj", "{3EC8D805-5091-4852-BC67-CACBCF190A9C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4F71C818-D277-4DBA-8099-B2C16088EED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLock.Business", "SmartLock.Business\SmartLock.Business.csproj", "{480A0A53-A658-444C-8FEF-994B2FA4ED42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLock.Persistence", "SmartLock.Persistence\SmartLock.Persistence.csproj", "{5D0246D1-E5D9-4568-8260-C6B6DB282383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLock.Domain", "SmartLock.Domain\SmartLock.Domain.csproj", "{F4D44270-9763-4D30-824C-30AC22ECF45C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLock.Test", "SmartLock.Test\SmartLock.Test.csproj", "{0C840DA5-AEF1-4C26-B25B-1D18EA2E0F48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EC8D805-5091-4852-BC67-CACBCF190A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC8D805-5091-4852-BC67-CACBCF190A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC8D805-5091-4852-BC67-CACBCF190A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC8D805-5091-4852-BC67-CACBCF190A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F71C818-D277-4DBA-8099-B2C16088EED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F71C818-D277-4DBA-8099-B2C16088EED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F71C818-D277-4DBA-8099-B2C16088EED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F71C818-D277-4DBA-8099-B2C16088EED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{480A0A53-A658-444C-8FEF-994B2FA4ED42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480A0A53-A658-444C-8FEF-994B2FA4ED42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480A0A53-A658-444C-8FEF-994B2FA4ED42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480A0A53-A658-444C-8FEF-994B2FA4ED42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0246D1-E5D9-4568-8260-C6B6DB282383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0246D1-E5D9-4568-8260-C6B6DB282383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0246D1-E5D9-4568-8260-C6B6DB282383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0246D1-E5D9-4568-8260-C6B6DB282383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D44270-9763-4D30-824C-30AC22ECF45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D44270-9763-4D30-824C-30AC22ECF45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D44270-9763-4D30-824C-30AC22ECF45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D44270-9763-4D30-824C-30AC22ECF45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C840DA5-AEF1-4C26-B25B-1D18EA2E0F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C840DA5-AEF1-4C26-B25B-1D18EA2E0F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C840DA5-AEF1-4C26-B25B-1D18EA2E0F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C840DA5-AEF1-4C26-B25B-1D18EA2E0F48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDCC6EEA-E17F-41E8-8B87-26D65AECA38D}
+	EndGlobalSection
+EndGlobal

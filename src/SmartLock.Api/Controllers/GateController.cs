@@ -9,6 +9,7 @@ namespace SmartLock.Api.Controllers
 {
     [Route("[controller]")]
     [ApiController]
+    [Authorize]
     public class GateController : ControllerBase
     {
         private readonly IMediator mediator;
